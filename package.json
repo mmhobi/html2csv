@@ -1,0 +1,38 @@
+{
+  "name": "html2csv",
+  "version": "1.0.0",
+  "description": "CLI tool to convert HTML table element into CSV",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zdne/html2csv.git"
+  },
+  "keywords": [
+    "html",
+    "csv"
+  ],
+  "author": "Zdenek Nemec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zdne/html2csv/issues"
+  },
+  "homepage": "https://github.com/zdne/html2csv#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "asyncawait": "^1.0.3",
+    "cheerio": "^0.20.0",
+    "commander": "^2.9.0",
+    "csv-stringify": "^1.0.2"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "html2csv": "./bin/html2csv.js"
+  }
+}
