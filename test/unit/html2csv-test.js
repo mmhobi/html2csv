@@ -16,7 +16,7 @@ describe('html2csv', function() {
       });
 
       it('returns the correct CSV', function() {
-        expect(result).to.equal("one;two\n");
+        expect(result).to.equal("one,two\n");
       });
     });
   });

@@ -1,4 +1,4 @@
-Month;Savings
-Sum;$180
-January;$100
-February;$80
+Month,Savings
+Sum,$180
+January,$100
+February,$80

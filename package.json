@@ -1,6 +1,6 @@
 {
   "name": "html2csv",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI tool to convert HTML table element into CSV",
   "main": "index.js",
   "scripts": {
